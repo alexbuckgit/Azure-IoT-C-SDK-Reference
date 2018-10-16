@@ -5,7 +5,7 @@ description: "This is the function reference page for the TRANSPORT_TYPEStrings(
 manager: timlt                 
 author: wesmc7777              
 ms.author: wesmc               
-ms.date: 10/11/2018                    
+ms.date: 10/16/2018                    
 ms.service: "iot-hub"             
 ms.custom: ""                
 ms.topic: "reference"        
@@ -17,8 +17,6 @@ ms.topic: "reference"
 
 \#include "[azure-iot-sdk-c/iothub_client/inc/iothub_client_core_common.h](../iothub-client-core-common-h.md)"  
 ```C
-const char* TRANSPORT_TYPEStrings(
-  TRANSPORT_TYPE  value
-);
+const char* TRANSPORT_TYPEStrings(TRANSPORT_TYPE  value);
 ```
 

@@ -5,7 +5,7 @@ description: "This is the function reference page for the PROV_DEVICE_TRANSPORT_
 manager: timlt                 
 author: wesmc7777              
 ms.author: wesmc               
-ms.date: 10/11/2018                    
+ms.date: 10/16/2018                    
 ms.service: "iot-hub"             
 ms.custom: ""                
 ms.topic: "reference"        
@@ -17,8 +17,6 @@ ms.topic: "reference"
 
 \#include "[azure-iot-sdk-c/provisioning_client/inc/azure_prov_client/prov_transport.h](../prov-transport-h.md)"  
 ```C
-const char* PROV_DEVICE_TRANSPORT_RESULTStrings(
-  PROV_DEVICE_TRANSPORT_RESULT  value
-);
+const char* PROV_DEVICE_TRANSPORT_RESULTStrings(PROV_DEVICE_TRANSPORT_RESULT  value);
 ```
 

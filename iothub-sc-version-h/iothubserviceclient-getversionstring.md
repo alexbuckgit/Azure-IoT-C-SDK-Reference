@@ -5,7 +5,7 @@ description: "This is the function reference page for the IoTHubServiceClient_Ge
 manager: timlt                 
 author: wesmc7777              
 ms.author: wesmc               
-ms.date: 10/11/2018                    
+ms.date: 10/16/2018                    
 ms.service: "iot-hub"             
 ms.custom: ""                
 ms.topic: "reference"        
@@ -19,8 +19,7 @@ Returns a pointer to a null terminated string containing the current IoT Hub Ser
 
 \#include "[azure-iot-sdk-c/iothub_service_client/inc/iothub_sc_version.h](../iothub-sc-version-h.md)"  
 ```C
-const char* IoTHubServiceClient_GetVersionString(void
-);
+const char* IoTHubServiceClient_GetVersionString(void);
 ```
 
 ## Return Value

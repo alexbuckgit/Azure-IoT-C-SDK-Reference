@@ -5,7 +5,7 @@ description: "This is the function reference page for the IOTHUB_IDENTITY_TYPESt
 manager: timlt                 
 author: wesmc7777              
 ms.author: wesmc               
-ms.date: 10/11/2018                    
+ms.date: 10/16/2018                    
 ms.service: "iot-hub"             
 ms.custom: ""                
 ms.topic: "reference"        
@@ -17,8 +17,6 @@ ms.topic: "reference"
 
 \#include "[azure-iot-sdk-c/iothub_client/inc/iothub_client_core_common.h](../iothub-client-core-common-h.md)"  
 ```C
-const char* IOTHUB_IDENTITY_TYPEStrings(
-  IOTHUB_IDENTITY_TYPE  value
-);
+const char* IOTHUB_IDENTITY_TYPEStrings(IOTHUB_IDENTITY_TYPE  value);
 ```
 

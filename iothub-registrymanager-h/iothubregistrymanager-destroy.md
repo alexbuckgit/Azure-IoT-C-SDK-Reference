@@ -5,7 +5,7 @@ description: "This is the function reference page for the IoTHubRegistryManager_
 manager: timlt                 
 author: wesmc7777              
 ms.author: wesmc               
-ms.date: 10/11/2018                    
+ms.date: 10/16/2018                    
 ms.service: "iot-hub"             
 ms.custom: ""                
 ms.topic: "reference"        
@@ -19,9 +19,7 @@ Disposes of resources allocated by the IoT Hub Registry Manager.
 
 \#include "[azure-iot-sdk-c/iothub_service_client/inc/iothub_registrymanager.h](../iothub-registrymanager-h.md)"  
 ```C
-void IoTHubRegistryManager_Destroy(
-  IOTHUB_REGISTRYMANAGER_HANDLE  registryManagerHandle
-);
+void IoTHubRegistryManager_Destroy(IOTHUB_REGISTRYMANAGER_HANDLE  registryManagerHandle);
 ```
 
 ## Parameters

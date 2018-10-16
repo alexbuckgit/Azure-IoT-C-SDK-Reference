@@ -5,7 +5,7 @@ description: "This is the function reference page for the AMQP_Protocol() functi
 manager: timlt                 
 author: wesmc7777              
 ms.author: wesmc               
-ms.date: 10/11/2018                    
+ms.date: 10/16/2018                    
 ms.service: "iot-hub"             
 ms.custom: ""                
 ms.topic: "reference"        
@@ -17,7 +17,6 @@ ms.topic: "reference"
 
 \#include "[azure-iot-sdk-c/iothub_client/inc/iothubtransportamqp.h](../iothubtransportamqp-h.md)"  
 ```C
-const TRANSPORT_PROVIDER* AMQP_Protocol(void
-);
+const TRANSPORT_PROVIDER* AMQP_Protocol(void);
 ```
 

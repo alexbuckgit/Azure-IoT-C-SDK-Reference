@@ -5,7 +5,7 @@ description: "This is the function reference page for the HTTPAPI_Init() functio
 manager: timlt                 
 author: wesmc7777              
 ms.author: wesmc               
-ms.date: 10/11/2018                    
+ms.date: 10/16/2018                    
 ms.service: "iot-hub"             
 ms.custom: ""                
 ms.topic: "reference"        
@@ -19,8 +19,7 @@ Global initialization for the HTTP API component.
 
 \#include "[azure-iot-sdk-c/c-utility/inc/azure_c_shared_utility/httpapi.h](../httpapi-h.md)"  
 ```C
-HTTPAPI_RESULT HTTPAPI_Init(void
-);
+HTTPAPI_RESULT HTTPAPI_Init(void);
 ```
 
 Platform specific implementations are expected to initialize the underlying HTTP API stacks.

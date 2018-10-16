@@ -5,7 +5,7 @@ description: "This is the function reference page for the TRANSPORT_HSM_TYPEStri
 manager: timlt                 
 author: wesmc7777              
 ms.author: wesmc               
-ms.date: 10/11/2018                    
+ms.date: 10/16/2018                    
 ms.service: "iot-hub"             
 ms.custom: ""                
 ms.topic: "reference"        
@@ -17,8 +17,6 @@ ms.topic: "reference"
 
 \#include "[azure-iot-sdk-c/provisioning_client/inc/azure_prov_client/prov_transport.h](../prov-transport-h.md)"  
 ```C
-const char* TRANSPORT_HSM_TYPEStrings(
-  TRANSPORT_HSM_TYPE  value
-);
+const char* TRANSPORT_HSM_TYPEStrings(TRANSPORT_HSM_TYPE  value);
 ```
 

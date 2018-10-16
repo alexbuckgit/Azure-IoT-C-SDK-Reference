@@ -5,7 +5,7 @@ description: "This is the function reference page for the IoTHub_Init() function
 manager: timlt                 
 author: wesmc7777              
 ms.author: wesmc               
-ms.date: 10/11/2018                    
+ms.date: 10/16/2018                    
 ms.service: "iot-hub"             
 ms.custom: ""                
 ms.topic: "reference"        
@@ -19,8 +19,7 @@ IoTHubClient_Init Initializes the IoTHub Client System.
 
 \#include "[azure-iot-sdk-c/iothub_client/inc/iothub.h](../iothub-h.md)"  
 ```C
-int IoTHub_Init(void
-);
+int IoTHub_Init(void);
 ```
 
 ## Return Value

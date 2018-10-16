@@ -5,7 +5,7 @@ description: "This is the function reference page for the IoTHub_Deinit() functi
 manager: timlt                 
 author: wesmc7777              
 ms.author: wesmc               
-ms.date: 10/11/2018                    
+ms.date: 10/16/2018                    
 ms.service: "iot-hub"             
 ms.custom: ""                
 ms.topic: "reference"        
@@ -19,7 +19,6 @@ IoTHubClient_Deinit Frees resources initialized in the IoTHubClient_Init functio
 
 \#include "[azure-iot-sdk-c/iothub_client/inc/iothub.h](../iothub-h.md)"  
 ```C
-void IoTHub_Deinit(void
-);
+void IoTHub_Deinit(void);
 ```
 

@@ -5,7 +5,7 @@ description: "This is the function reference page for the deviceCapabilities_cre
 manager: timlt                 
 author: wesmc7777              
 ms.author: wesmc               
-ms.date: 10/11/2018                    
+ms.date: 10/16/2018                    
 ms.service: "iot-hub"             
 ms.custom: ""                
 ms.topic: "reference"        
@@ -19,8 +19,7 @@ Creates a Device Capabilities handle that can be used in consequent APIs, with a
 
 \#include "[azure-iot-sdk-c/provisioning_service_client/inc/prov_service_client/provisioning_sc_device_capabilities.h](../provisioning-sc-device-capabilities-h.md)"  
 ```C
-DEVICE_CAPABILITIES_HANDLE deviceCapabilities_create(void
-);
+DEVICE_CAPABILITIES_HANDLE deviceCapabilities_create(void);
 ```
 
 ## Return Value

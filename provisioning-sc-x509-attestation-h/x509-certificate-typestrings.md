@@ -5,7 +5,7 @@ description: "This is the function reference page for the X509_CERTIFICATE_TYPES
 manager: timlt                 
 author: wesmc7777              
 ms.author: wesmc               
-ms.date: 10/11/2018                    
+ms.date: 10/16/2018                    
 ms.service: "iot-hub"             
 ms.custom: ""                
 ms.topic: "reference"        
@@ -17,8 +17,6 @@ ms.topic: "reference"
 
 \#include "[azure-iot-sdk-c/provisioning_service_client/inc/prov_service_client/provisioning_sc_x509_attestation.h](../provisioning-sc-x509-attestation-h.md)"  
 ```C
-const char* X509_CERTIFICATE_TYPEStrings(
-  X509_CERTIFICATE_TYPE  value
-);
+const char* X509_CERTIFICATE_TYPEStrings(X509_CERTIFICATE_TYPE  value);
 ```
 

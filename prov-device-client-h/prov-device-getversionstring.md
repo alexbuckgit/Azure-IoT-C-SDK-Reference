@@ -5,7 +5,7 @@ description: "This is the function reference page for the Prov_Device_GetVersion
 manager: timlt                 
 author: wesmc7777              
 ms.author: wesmc               
-ms.date: 10/11/2018                    
+ms.date: 10/16/2018                    
 ms.service: "iot-hub"             
 ms.custom: ""                
 ms.topic: "reference"        
@@ -17,7 +17,6 @@ ms.topic: "reference"
 
 \#include "[azure-iot-sdk-c/provisioning_client/inc/azure_prov_client/prov_device_client.h](../prov-device-client-h.md)"  
 ```C
-const char* Prov_Device_GetVersionString(void
-);
+const char* Prov_Device_GetVersionString(void);
 ```
 

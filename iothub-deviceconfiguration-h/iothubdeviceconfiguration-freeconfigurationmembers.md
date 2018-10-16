@@ -5,7 +5,7 @@ description: "This is the function reference page for the IoTHubDeviceConfigurat
 manager: timlt                 
 author: wesmc7777              
 ms.author: wesmc               
-ms.date: 10/11/2018                    
+ms.date: 10/16/2018                    
 ms.service: "iot-hub"             
 ms.custom: ""                
 ms.topic: "reference"        
@@ -19,9 +19,7 @@ Free members of the [IOTHUB_DEVICE_CONFIGURATION](../iothub-deviceconfiguration-
 
 \#include "[azure-iot-sdk-c/iothub_service_client/inc/iothub_deviceconfiguration.h](../iothub-deviceconfiguration-h.md)"  
 ```C
-void IoTHubDeviceConfiguration_FreeConfigurationMembers(
-  IOTHUB_DEVICE_CONFIGURATION  configuration
-);
+void IoTHubDeviceConfiguration_FreeConfigurationMembers(IOTHUB_DEVICE_CONFIGURATION  configuration);
 ```
 
 ## Parameters
