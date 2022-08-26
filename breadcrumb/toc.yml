@@ -11,5 +11,5 @@
       topicHref: /azure/iot-hub/
       items:
       - name: Azure IoT C SDK Reference
-        tocHref: /azure/iot-hub/iot-c-reference/
-        topicHref: /azure/iot-hub/iot-c-reference/
+        tocHref: /azure/iot-hub/iot-c-sdk-ref/
+        topicHref: /azure/iot-hub/iot-c-sdk-ref/
